@@ -1,0 +1,6 @@
+nvim/plugin
+nvim/.netrwhist
+lazygit/state.yml
+lvim/lazy-lock.json
+nvim/package.json
+nvim/package-lock.json
