@@ -1,10 +1,21 @@
+-- PLUGINS KEYMAPS --
+--
+-- NeoTree
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>')
 
--- tabline
+-- Tabline
 vim.keymap.set('n', '<S-l>', ':BufferNext<CR>')
 vim.keymap.set('n', '<S-h>', ':BufferPrev<CR>')
 vim.keymap.set('n', '<leader>bd', ':BufferClose<CR>')
+vim.keymap.set('n', '<leader>b[', ':BufferMovePrev<CR>')
+vim.keymap.set('n', '<leader>b]', ':BufferMoveNext<CR>')
+vim.keymap.set('n', '<leader>bs', ':BufferMoveStart<CR>')
 
+-- UndoTree
+vim.keymap.set('n', '<leader>ut', ':UndotreeToggle<CR>')
+
+-- GENERAL
+--
 -- quickfix
 vim.keymap.set('n', ']q', ':cnext<CR>')
 vim.keymap.set('n', '[q', ':cprev<CR>')
